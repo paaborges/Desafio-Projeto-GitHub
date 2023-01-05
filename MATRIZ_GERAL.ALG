@@ -4,7 +4,6 @@ Var
    m, n, i, j : inteiro
    mat : vetor [0..9, 0..9] de real
    diagonalPrincipal: vetor [0..9] de real
-   matrizAlterada : vetor [0..9, 0..9] de real
    somaMatriz : real
    linha, coluna : inteiro
    
