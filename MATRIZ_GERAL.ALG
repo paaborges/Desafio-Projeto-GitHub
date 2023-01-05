@@ -14,7 +14,7 @@ Inicio
       
       para i de 0 ate m-1 faca
            para j de 0 ate n-1 faca
-                escreva("Elemento [", i, ",", j,"]: ")
+                escreva("Elemento [", i, ",", j,"]: ")  // Comentario teste Commit
                 leia(mat[i,j])
            fimpara
       fimpara
