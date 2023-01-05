@@ -4,7 +4,7 @@ Var
    m, n, i, j : inteiro
    mat : vetor [0..9, 0..9] de real
    diagonalPrincipal: vetor [0..9] de real
-   somaMatriz : real
+   adicaoMatriz : real
    linha, coluna : inteiro
    
 Inicio
@@ -27,17 +27,17 @@ Inicio
            fimpara
       fimpara
       
-      somaMatriz <- 0
+      adicaoMatriz <- 0
       para i de 0 ate m-1 faca
            para j de 0 ate n-1 faca
                 se mat[i, j] > 0 entao
-                   somaMatriz <- somaMatriz + mat[i, j]
+                   adicaoMatriz <- adicaoMatriz + mat[i, j]
                 fimse
            fimpara
       fimpara
       
       escreval
-      escreval("SOMA DOS POSITIVOS: ",somaMatriz)
+      escreval("SOMA DOS POSITIVOS: ",adicaoMatriz)
       escreval
       
       escreva("Escolha uma Linha: ")
